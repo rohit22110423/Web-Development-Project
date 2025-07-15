@@ -38,3 +38,38 @@ Book Alchemy is a MERN-based (MySQL, Express, React, Node) project built to prov
 
 ## 🗂️ Folder Structure
 
+Book_store/
+├── frontend/ # React frontend (Vite)
+├── backend/ # Node.js backend (Express + MySQL)
+├── .gitignore
+├── README.md
+
+
+---
+
+## 📷 Screenshots
+
+Coming soon...
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/rohit22110423/Web-Development-Project.git
+cd Web-Development-Project
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Start backend server
+node index.js
+
+# In a new terminal: install frontend dependencies
+cd ../frontend
+npm install
+
+# Start frontend
+npm run dev
